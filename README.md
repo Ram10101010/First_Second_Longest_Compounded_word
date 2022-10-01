@@ -4,7 +4,7 @@
 - The problem statement can be found in the Exercise_Fresher_Word_Problem.pdf file.
 
 ## Data Structure 
-- to solve this problem i use Trie data Structure.It can be insert faster and search the string than hash tables and TreeMap or any other data Structure. 
+- To solve this problem i use Trie data Structure.It can be insert faster and search the string than hash tables and TreeMap or any other data Structure. 
   and the searching and insert porocess will be going on alphabet to alphabet.
 
 
