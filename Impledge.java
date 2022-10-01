@@ -53,7 +53,7 @@ class Trie{
 			
 			/*in this section we check that if the ch is exist in Tire already or not if not exist then 
 			 * create a New Node and insert the ch and at the same time we create reference of New Node*/
-			if(!node.ContainsKey(word.charAt(i))) {  // 
+			if(!node.ContainsKey(word.charAt(i))) {  
 				node.put(word.charAt(i), new Node());
 			}
 			node = node.get(word.charAt(i));
@@ -62,7 +62,6 @@ class Trie{
 	}
 	static boolean check_if_compounded(String word) { // find the mistake and solve it quickly 
 		Node node = root;
-		//boolean flag = true;
 		
 		for(int i=0;i<word.length()  ;i++) {
 			
