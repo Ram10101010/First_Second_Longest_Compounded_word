@@ -14,7 +14,6 @@ class Node{
 	public char children;		// children store the char 
 	
 	public Node() {
-		
 	}
 	boolean ContainsKey(char ch) {
 		return (links[ch - 'a'] != null); 	
@@ -36,7 +35,6 @@ class Node{
 	boolean isEnd() {
 		return this.flag;
 	}
-	
 }
 class Trie{
 	//Now create a Trie data Structure to insert and search the word 
@@ -117,7 +115,6 @@ public class Impledge {
 			} 
     	}
 		
-		
 		Trie obj = new Trie();
 		for(int i = 0;i < dictionary.size();i++) {
 			String word = dictionary.get(i);     
@@ -145,6 +142,5 @@ public class Impledge {
 		
 		System.out.println("Second longest compounded word : "+Second_longest);
 		System.out.println("longest compounded word : "+longest);
-		
 	}
 }
